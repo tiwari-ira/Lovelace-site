@@ -1,5 +1,6 @@
-import logo from './logo.svg';
+import logo from './assets/icons/logo.svg';
 import './App.css';
+import IconExample from './components/IconExample';
 
 function App() {
   return (
@@ -7,7 +8,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Your SVG Icons are now organized in the assets folder!
         </p>
         <a
           className="App-link"
@@ -18,6 +19,7 @@ function App() {
           Learn React
         </a>
       </header>
+      <IconExample />
     </div>
   );
 }
